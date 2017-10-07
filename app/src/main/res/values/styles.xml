@@ -1,0 +1,20 @@
+<resources>
+
+
+    <style name="CustomMediaTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabMaxWidth">100dp</item>
+        <item name="tabPaddingStart">12dp</item>
+        <item name="tabPaddingEnd">12dp</item>
+        <item name="tabIndicatorColor">@android:color/transparent</item>
+        <item name="tabBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="AlertDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@color/black_transparent_8C</item>
+        <item name="fontPath">fonts/Roboto-Regular.ttf</item>
+    </style>
+
+
+
+</resources>

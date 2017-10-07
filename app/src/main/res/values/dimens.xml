@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="default_margin_padding">16dp</dimen>
+    <!-- Text sizes -->
+    <dimen name="text_size_xs">10sp</dimen>
+    <dimen name="text_size_s">12sp</dimen>
+    <dimen name="text_size_m">14sp</dimen>
+    <dimen name="text_size_l">16sp</dimen>
+    <dimen name="text_size_xl">20sp</dimen>
+    <dimen name="text_size_xxl">24sp</dimen>
+    <dimen name="text_size_xxxl">32sp</dimen>
+    <!-- list item dimensions -->
+    <dimen name="space">2dp</dimen>
+    <dimen name="top_space">4dp</dimen>
+    <dimen name="popup_width">300dp</dimen>
+    <!-- pin layout -->
+    <dimen name="pin_margin">1.5dp</dimen>
+    <!-- window manager layout -->
+    <dimen name="app_icon_top_padding">30dp</dimen>
+    <dimen name="pattern_bottom_padding">20dp</dimen>
+    <dimen name="pin_bottom_padding">30dp</dimen>
+</resources>

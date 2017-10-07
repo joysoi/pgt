@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/image_frame"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="119dp"
+    android:layout_height="119dp">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/thumb"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="2dp"
+        android:contentDescription="@string/selector" />
+
+    <ImageView
+        android:id="@+id/selected_background_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_media_img_seleted"
+        android:contentDescription="@string/selector"
+        android:visibility="invisible"
+        android:scaleType="fitXY" />
+</FrameLayout>
